@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         <!-- <h3>alo</h3>
         <div><AdminMain/></div> -->
         <div class="Admin">
@@ -7,8 +8,9 @@
                 <AdminNav />
             </div>
             <div class="content">
-                <AdminDashboard />
-                 <router-view /> </div>
+                <!-- <AdminDashboard /> -->
+                 <router-view /> 
+            </div>
            
         </div>
 
@@ -33,6 +35,7 @@ export default {
     height: 100%;
     border: 1px solid red;
     display: flex;
+    // margin: 0 auto;
 
     .AdminNav {
         flex: 1;

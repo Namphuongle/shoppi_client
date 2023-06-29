@@ -16,6 +16,10 @@
                         <i class="fa-solid fa-house-chimney"></i>
                         <a href="">profile admin</a>
                     </li>
+                    <li>
+                        <i class="fa-solid fa-house-chimney"></i>
+                         <router-link to="/">Home </router-link>
+                    </li>
                 </ul>
             </div>
         </div>
